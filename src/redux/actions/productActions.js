@@ -10,6 +10,6 @@ export const setProducts = (products) => {
 export const selectedProducts = (product) => {
     return {
         type: ActionTypes.SELECTED_PRDUCT,
-        payload : product,
+        payload: product,
     }
 }
